@@ -13,6 +13,7 @@ function App() {
     <>
       <div>
         <h1>Covid</h1>
+        <Navbar/>
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/ermesek" element={<Ermesek/>}/>
